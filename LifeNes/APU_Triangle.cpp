@@ -1,5 +1,6 @@
 #include "APU_Triangle.h"
 #include <intrin.h>
+#include <cstring>
 
 const uint8 lut[32] =
 {

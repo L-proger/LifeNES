@@ -1,5 +1,6 @@
 #include "APU_Noise.h"
 #include <intrin.h>
+#include <cstring>
 
 APU_Noise::APU_Noise(double freq)
 	: APUChannel(freq), envelope(0), noise_shift(1), sample_count(0.0)

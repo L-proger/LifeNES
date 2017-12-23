@@ -1,5 +1,6 @@
 #include "APU_Square2.h"
 #include <intrin.h>
+#include <cstring>
 
 const uint8 lut[32] =
 {
